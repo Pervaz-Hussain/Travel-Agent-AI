@@ -1,13 +1,34 @@
- Install Dependencies
-bash
+# Gemini 2.0 Flash API (Google GenAI)
+google-generativeai==1.7.0
 
-pip install -r requirements.txt
-3. Set Up Gemini API
-Get your API key from Google AI studio
+# Vector DB for RAG
+chromadb==0.6.3
 
-Set it in your notebook or terminal:
+# Retry handling for Gemini API
+google-api-core
 
-python
+# Google search grounding tool
+google-search==1.0.2
 
-import os
-os.environ['GEMINI_API_KEY'] = 'your-api-key-here'
+# Language model orchestration (used with LangGraph style flow)
+langchain
+
+# Embedding support
+protobuf>=3.20.3,<4.0.0
+
+# General-purpose packages
+pandas
+numpy
+requests
+tqdm
+
+# Kaggle-specific (for secrets and notebook use)
+kaggle
+kaggle_secrets
+
+# Optional: for .env support if used locally
+python-dotenv
+
+# For running in notebooks
+ipython
+jupyter
