@@ -5,11 +5,10 @@ An AI-powered travel planner built using **Gemini 2.0 Flash API**, integrated wi
 ---
 
 ## ✨ Features
-- 🧳 Personalized itinerary generation based on user preferences
-- 🏨 Real-time hotel and transport recommendations using Google Search
-- 📚 Context retention using RAG with ChromaDB
-- 🤖 LangGraph agent for tool orchestration and planning
-- 📈 Built and tested on Kaggle and Google Colab
+- 🧳 Personalized itinerary generation based on user preferences.
+- 🏨 Real-time hotel and transport recommendations using Google Search.
+- 📚 Context retention using RAG with ChromaDB.
+- 📈 Built and tested on Kaggle.
 
 ---
 
@@ -19,9 +18,8 @@ An AI-powered travel planner built using **Gemini 2.0 Flash API**, integrated wi
 |---------------|-----------------------------------------------------------|
 | GenAI         | Gemini 2.0 Flash API, Prompt Engineering (Few-shot, CoT) |
 | Search        | Google Search Grounding                                  |
-| Retrieval     | ChromaDB (RAG)                                           |
-| Agent         | LangGraph                                                |
-| Platform      | Kaggle, Google Colab                                     |
+| Retrieval     | ChromaDB (RAG)                                           |                                                |
+| Platform      | Kaggle                                    |
 | Language      | Python                                                   |
 
 ---
