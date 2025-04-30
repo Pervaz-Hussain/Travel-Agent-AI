@@ -1,0 +1,13 @@
+ Install Dependencies
+bash
+
+pip install -r requirements.txt
+3. Set Up Gemini API
+Get your API key from Google AI studio
+
+Set it in your notebook or terminal:
+
+python
+
+import os
+os.environ['GEMINI_API_KEY'] = 'your-api-key-here'
