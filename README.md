@@ -31,11 +31,11 @@ An India-focused Travel Planner AI built using **Gemini 2.0 Flash API**, **Googl
 ```bash
 git clone https://github.com/your-username/travel-agent-ai.git
 cd travel-agent-ai
+```
 2. Install Dependencies
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 3. Set Up Gemini API
 Get Your API Key
 Visit Google AI Studio
@@ -43,44 +43,20 @@ Visit Google AI Studio
 Copy your API key
 
 In Notebooks:
-python
-Copy
-Edit
+```bash
 import os
 os.environ['GEMINI_API_KEY'] = 'your-api-key-here'
-OR Using a .env File:
-Create a file called .env:
+```
 
-ini
-Copy
-Edit
-GEMINI_API_KEY=your-api-key-here
-Then load it in your code:
 
-python
-Copy
-Edit
-from dotenv import load_dotenv
-load_dotenv()
-📂 Project Structure
-bash
-Copy
-Edit
-travel-agent-ai/
-├── Travel_Agent_AI.ipynb         # Kaggle/Colab notebook
-├── requirements.txt              # Python dependencies
-├── README.md                     # This documentation
-├── .env (optional, local only)   # Environment variables
-└── /docs or /assets (optional)   # Resume, screenshots, etc.
 🧠 How It Works
 Few-shot + CoT Prompt Example
-css
-Copy
-Edit
+```bash
 You are an Indian travel agent AI...
 Plan a 3-day solo cultural trip to Jaipur in February (budget)
-...
+```
 Gemini Response Sample
+```bash
 Day-wise itinerary (Morning, Afternoon, Evening)
 
 Local food (e.g., Pyaz Kachori, Dal Baati Churma)
@@ -88,7 +64,7 @@ Local food (e.g., Pyaz Kachori, Dal Baati Churma)
 Cost breakdown (in INR)
 
 Safety, transport, and cultural tips
-
+```
 RAG Example (with ChromaDB)
 Guide chunks: Food, Sightseeing, Transport, Safety
 
@@ -102,7 +78,7 @@ Adds live, real-time search-based results to Gemini answers
 Tool: google.genai.types.GoogleSearch
 
 🔗 Run the Notebook on Kaggle
-👉 Open in Kaggle
+👉 Open in Kaggle https://www.kaggle.com/code/pervazhussain/travel-agent-ai
 
 Supports full execution in Kaggle’s free cloud environment
 
@@ -111,10 +87,10 @@ Supports full execution in Kaggle’s free cloud environment
 MIT License – Free to use and modify for educational or non-commercial use.
 
 🌐 Acknowledgments
-Google GenAI Studio
+Google AI Studio
 
 Kaggle Notebooks
 
 ChromaDB
 
-💡 This project can also be bundled as a downloadable zip or deployed to GitHub directly from Colab/Kaggle using GitHub CLI.
+💡 This project can also be bundled as a downloadable zip or deployed to GitHub directly from Kaggle using GitHub CLI.
