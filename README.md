@@ -49,11 +49,17 @@ os.environ['GEMINI_API_KEY'] = 'your-api-key-here'
 ```
 
 
-🧠 How It Works
-Few-shot + CoT Prompt Example
+## ⚙️ How It Works
 ```bash
-You are an Indian travel agent AI...
-Plan a 3-day solo cultural trip to Jaipur in February (budget)
+1. User enters a travel query (destination, duration, budget)
+2. Gemini processes the query using few-shot + chain-of-thought prompting
+3. Relevant travel data is retrieved from ChromaDB (RAG)
+4. Google Search adds real-time insights
+5. Final response is generated with:
+   - Day-wise itinerary
+   - Cost estimation
+   - Food & cultural tips
+   - Travel advice
 ```
 Gemini Response Sample
 ```bash
