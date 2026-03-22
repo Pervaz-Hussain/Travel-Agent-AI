@@ -61,15 +61,17 @@ os.environ['GEMINI_API_KEY'] = 'your-api-key-here'
    - Food & cultural tips
    - Travel advice
 ```
-Gemini Response Sample
+## 📸 Example
 ```bash
-Day-wise itinerary (Morning, Afternoon, Evening)
+**Input:**
+Plan a 3-day budget trip to Jaipur
 
-Local food (e.g., Pyaz Kachori, Dal Baati Churma)
-
-Cost breakdown (in INR)
-
-Safety, transport, and cultural tips
+**Output:**
+- Day 1: City Palace, Hawa Mahal, Local Market
+- Day 2: Amer Fort, Nahargarh Fort
+- Day 3: Shopping & cultural spots
+- Food: Dal Baati Churma, Pyaz Kachori
+- Estimated Budget: ₹8,000–₹12,000
 ```
 RAG Example (with ChromaDB)
 Guide chunks: Food, Sightseeing, Transport, Safety
